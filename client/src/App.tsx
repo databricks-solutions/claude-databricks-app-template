@@ -1,11 +1,7 @@
-import { WelcomePage } from "./pages/WelcomePage";
+import TraceSummaryPage from "./pages/TraceSummaryPage";
 
 function App() {
-  return (
-    <div className="min-h-screen bg-background">
-      <WelcomePage />
-    </div>
-  );
+  return <TraceSummaryPage />;
 }
 
 export default App;
